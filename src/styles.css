@@ -1,0 +1,76 @@
+* {
+  font-family: inter, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+body {
+  background: #282d35;
+}
+
+/* Style for the header of the page */
+.header {
+  background: #212324;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 2rem;
+  height: 90px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(73, 97, 124, 0.233);
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 10%;
+  height: auto;
+}
+
+.brandname {
+  font-size: 2.5rem;
+  padding-inline: 0.1rem;
+  color: #08edf5;
+}
+
+/* Style for main section of the page */
+.container {
+  padding: 3rem;
+}
+
+.container h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.facts-list {
+  max-width: 450px;
+  padding-inline: 2rem;
+  padding-block: 10px;
+  line-height: 2.5rem;
+  list-style: none;
+}
+
+.facts-list .item {
+  position: relative;
+  margin-block: 10px;
+  padding-top: 0;
+}
+
+.facts-list .item::before {
+  content: "\2022";
+  font-size: 2rem;
+  position: absolute;
+  left: -25px;
+  top: -3px;
+  color: #08edf5;
+}
+
+.react-svg {
+  width: "2rem";
+  color: red;
+}
